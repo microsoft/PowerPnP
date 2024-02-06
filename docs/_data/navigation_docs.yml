@@ -1,16 +1,36 @@
-# - title: Resources
-#   docs:
-#   - resources
-
-- title: Tools
+- title: Getting Started
   docs:
-  - tools/automation-kit
-  - tools/coe-starter-kit
-  - tools/creator-kit
-  - tools/alm-accelerator
+  - installation
+  - setup
+  - navigation
+  - footer
+  - posts
+  - docs
+  - comments
+  - analytics
 
-- title: Guidance
+- title: Theme Features
   docs:
-  - guidance/power-platform-adoption
-  - guidance/power-platform-best-practices
-  - guidance/power-cat-video-channel
+  - hero
+  - boxes
+  - featured
+  - videos
+  - faq
+  - team
+  - cta
+  - changelog
+  - contact
+  - media
+  - toc
+  - alerts
+
+- title: Customization
+  docs:
+  - translation
+  - customize
+  - development
+  - sources
+
+- title: Help
+  docs:
+  - support

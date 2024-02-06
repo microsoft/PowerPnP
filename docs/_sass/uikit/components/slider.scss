@@ -11,15 +11,6 @@
 // ========================================================================
 
 
-// Variables
-// ========================================================================
-
-$slider-container-margin-top:                        -11px !default;
-$slider-container-margin-bottom:                     -39px !default;
-$slider-container-margin-left:                       -25px !default;
-$slider-container-margin-right:                      -25px !default;
-
-
 /* ========================================================================
    Component: Slider
  ========================================================================== */
@@ -39,18 +30,12 @@ $slider-container-margin-right:                      -25px !default;
  ========================================================================== */
 
 /*
- * Clip child elements
+ * 1. Clip child elements
  */
 
-.uk-slider-container { overflow: hidden; }
-
-/*
- * Widen container to prevent box-shadows from clipping, `large-box-shadow`
- */
-
-.uk-slider-container-offset {
-    margin: $slider-container-margin-top $slider-container-margin-right $slider-container-margin-bottom $slider-container-margin-left;
-    padding: ($slider-container-margin-top * -1) ($slider-container-margin-right * -1) ($slider-container-margin-bottom * -1) ($slider-container-margin-left * -1);
+.uk-slider-container {
+    /* 1 */
+    overflow: hidden;
 }
 
 /* Items
@@ -59,7 +44,6 @@ $slider-container-margin-right:                      -25px !default;
 /*
  * 1. Optimize animation
  * 2. Create a containing block. In Safari it's neither created by `transform` nor `will-change`.
- * 3. Disable horizontal panning gestures
  */
 
 .uk-slider-items {
@@ -67,8 +51,6 @@ $slider-container-margin-right:                      -25px !default;
     will-change: transform;
     /* 2 */
     position: relative;
-    /* 3 */
-    touch-action: pan-y;
 }
 
 /*
@@ -94,16 +76,17 @@ $slider-container-margin-right:                      -25px !default;
 
 /*
  * 1. Let items take content dimensions (0 0 auto)
- *    `max-width` needed to keep image responsiveness and prevent content overflow
- * 3. Create position context
+ * 2. Create position context
+ * 3. Disable horizontal panning gestures in IE11 and Edge
  */
 
 .uk-slider-items > * {
     /* 1 */
     flex: none;
-    max-width: 100%;
-    /* 3 */
+    /* 2 */
     position: relative;
+    /* 3 */
+    touch-action: pan-y;
 }
 
 

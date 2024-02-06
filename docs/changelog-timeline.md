@@ -1,10 +1,9 @@
 ---
 layout: page
-title: What's New
-tags: [new]
+title: Changelog timeline
 width: small
 ---
 
-The latest releases and updates from the Power CAT team.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 {% include changelog.html %}

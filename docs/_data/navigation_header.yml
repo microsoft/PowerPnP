@@ -4,20 +4,33 @@ left:
   - title: Home
     url: /
 
-  #- title: Resources
-  #  url: /docs/power-cat-resources/
-  
-  - title: What's New
+  - title: Docs
+    url: /docs/installation/
+
+  - title: Blog
+    url: /blog/
+
+  - title: Changelogs
+    dropdown:
+
+      - title: Timeline Style
+        url: /changelog-timeline/
+
+      - title: Post Style
+        url: /changelog-posts/
+
+
+# Navbar right menu navigation links
+
+right:
+
+  - title: Changelog
     url: /changelog-timeline/
+    button: primary-outline
 
-#  - title: Customer stories
-#    url: https://aka.ms/PowerPlatformStories
-
-#right:
-  #- title: Contact
-   # url: /contact/
-   # button: success
-  # button: primary-outline
+  - title: Contact
+    url: /contact/
+    button: success
 
   # - title: Changelog
   #   url: /contact/
