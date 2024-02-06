@@ -3,6 +3,14 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Theme files
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+themedocs
+
 # User-specific files
 *.rsuser
 *.suo
