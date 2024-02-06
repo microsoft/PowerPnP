@@ -1,89 +1,25 @@
-# Docs is a premium documentation Jekyll theme
+# Power CAT
 
-Desk was developed by [Unbound Studio](https://unbound.studio).
 
-## Installation
 
-Install the dependencies with [Bundler](http://bundler.io/):
+## Contributing
 
-```bash
-bundle install
-```
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
-Run the following to generate your site:
-```bash
-bundle exec jekyll serve
-```
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
 
-You can find more on [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-## Setup
+## Trademarks
 
-### Site and author details
-Add your site and author details in `_config.yml`:
-```yaml
-# Site title and description
-title:              Docs
-description:        Documentation Jekyll theme.
-lang:               en
-
-# Site subpath, e.g. /blog
-baseurl:            ""
-
-# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:title/
-
-# Site base hostname & protocol, e.g. http://example.com
-url:                ""
-
-# Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:               
-
-navbar:
-  search:           true;
-  
-# Default author settings
-author:
-    name:           Pete Seth
-    title:          Lead Developer  
-    avatar:         avatar-tom.png
-```
-
-## Customization
-
-To modify the primary color, open `/_sass/theme/variables.scss` and replace the color values e.g.:
-
-```scss
-$global-primary-background:                   #05c896;
-```
-
-Further style customisation can be done in the following files:
-```
-/_sass/theme/mixins.scss
-/_sass/theme/variables.scss
-/assets/css/main.scss
-```
-
-## Development
-
-Install [UIkit](https://getuikit.com/) font end framework dependency via Npm:
-```bash
-npm install
-```
-Enable live browser reload with the following:
-```bash
-bundle exec jekyll s --livereload
-```
-
-## Credits and Sources
-
-- Google analytics https://www.google.com/analytics/
-- Google maps https://www.google.com/maps
-- UIkit front end framework https://getuikit.com/
-- Jekyll CML https://jekyllrb.com/
-
-## Support
-Customer support is provided through our Envato item page [contact form](https://themeforest.net/item/docs-responsive-documentation-manual-jekyll-theme/21131076/support) for up to six months from the purchase date and is provided Monday to Friday during the business week. We aim to answer all support requests daily, most are handled within 24h.
-
-## Documentation
-Full documentation can be found here: [https://jekyll-theme-docs.netlify.com/docs/installation/](https://jekyll-theme-docs.netlify.com/docs/installation/).
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
+trademarks or logos is subject to and must follow 
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.
