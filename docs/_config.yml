@@ -27,8 +27,8 @@ navbar:
   
 # Default author settings
 author:
-    name:           Pete Seth
-    title:          Lead Developer  
+    name:           Robert Standefer
+    title:          Principal Program Manager  
     avatar:         avatar-tom.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
