@@ -114,6 +114,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
 
 sass:
   style:            compressed
