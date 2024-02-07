@@ -10,13 +10,13 @@ description:        Power Platform Patterns & Practices
 lang:               en
 
 # Site subpath, e.g. /blog
-baseurl:            "/powerpnp"
+baseurl:            ""
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://microsoft.github.io"
+url:                https://microsoft.github.io
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:               
