@@ -1,12 +1,12 @@
 ---
 layout: page
 width: xsmall
-title: Got Any Questions
+title: Contact Us
 permalink: /contact/
 ---
 
-##### Morbi varius in accumsan blandit, elit ligula velit, luctus mattis ante nulla nulla.
+##### Have any questions about Power Patterns & Practices or ideas for guidance?
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Reach out to us and let us know what you need.
 
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" %}
+{% include formspree.html email="powerpnp@microsoft.com" redirect="/thanks/" name="true" subject="true" %}
